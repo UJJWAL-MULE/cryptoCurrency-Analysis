@@ -21,6 +21,6 @@ footer {
 }
 
 .rounded-image {
-  border-radius: 90%;
-  max-width: 100px;
+  border-radius: 50%;
+  max-width: 50%;
 }

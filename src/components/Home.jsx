@@ -60,7 +60,3 @@ const Home = () => {
 };
 
 export default Home;
-
-{
-  /* <NavLink to='/coins'>Explore</NavLink> */
-}

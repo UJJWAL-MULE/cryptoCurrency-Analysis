@@ -6,7 +6,7 @@ const Header = () => {
   return (
   <>
   <div>
-  <HStack p={5} shadow={'base'} className='bg-secondary'>
+  <HStack p={5} shadow={'base'} className='bg-secondary' >
       <Button variant={"unstyled"} color={"white"}>
         <NavLink to='/'>Home</NavLink>
       </Button>

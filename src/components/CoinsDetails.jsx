@@ -6,6 +6,7 @@ import { server } from '..';
 import {  useParams } from 'react-router-dom';
 import ErrorComponent from './ErrorComponent';
 import Chart from './Chart';
+import Footer from './Footer';
 
 
 const CoinsDetails = () => {
@@ -127,7 +128,9 @@ const CoinsDetails = () => {
       
 
       }
+     
     </div>
+    <Footer/>
     </>
   )
 }
