@@ -56,7 +56,7 @@ const CoinsDetails = () => {
 
     if(err){
       console.log(`Error during fetching ${params.id} data`)
-      return <ErrorComponent messages={`Error during fetching ${params.id} data`} />
+      return <ErrorComponent messages={`Error during fetching ${params.id} data due to paid Api(minimum Referesh Rate`} />
     }
 
   return (
