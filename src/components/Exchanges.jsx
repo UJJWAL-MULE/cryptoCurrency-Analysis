@@ -32,7 +32,7 @@ const Exchanges = () => {
 
 
   if(error){
-    return <ErrorComponent messages="Error while fetching Exchanges data"/>
+    return <ErrorComponent messages="Error while fetching Exchanges data due to paid API(minimum Refresh rate) "/>
   }
 
 
